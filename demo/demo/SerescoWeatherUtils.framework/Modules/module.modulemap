@@ -1,0 +1,4 @@
+framework module SerescoWeatherUtils {
+  header "SerescoWeatherUtils-Swift.h"
+  requires objc
+}
