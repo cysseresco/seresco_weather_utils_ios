@@ -24,11 +24,27 @@ let meteorologyUtils = MeteorologyUtils()
 
 func openWeatherWeeklySheet() {
     meteorologyUtils.currentViewController = self
-    meteorologyUtils.openMeteorologyPanel(meteorologyType: .WEATHER_WEEKLY, coordinate: CLLocationCoordinate2D(latitude: 43.361231, longitude: -5.848566,))
+    meteorologyUtils.openMeteorologyPanel(meteorologyType: .HUMIDITY, municipalityId: "33007")
 }
 ```
 
 Installation
 --------
 
-Cooming soon
+In your `Podfile`:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+
+target 'TARGET_NAME' do
+    pod 'SerescoWeatherUtils', '~> 0.0.1'
+end
+```
+
+Replace `TARGET_NAME` and then, in the `Podfile` directory, type:
+
+```bash
+$ pod install
+```
