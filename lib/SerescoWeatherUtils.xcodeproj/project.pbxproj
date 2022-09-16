@@ -15,7 +15,6 @@
 		1E547F7428CFEE1F0099B3D5 /* WeatherWeeklySheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E547F5228CFEE1E0099B3D5 /* WeatherWeeklySheetViewController.swift */; };
 		1E547F7528CFEE1F0099B3D5 /* WeatherTomorrowSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E547F5328CFEE1E0099B3D5 /* WeatherTomorrowSheetViewController.swift */; };
 		1E547F7628CFEE1F0099B3D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E547F5528CFEE1F0099B3D5 /* Assets.xcassets */; };
-		1E547F7728CFEE1F0099B3D5 /* postal_code_municipes.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1E547F5628CFEE1F0099B3D5 /* postal_code_municipes.csv */; };
 		1E547F7828CFEE1F0099B3D5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E547F5728CFEE1F0099B3D5 /* Colors.swift */; };
 		1E547F7928CFEE1F0099B3D5 /* MeteorologyApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E547F5928CFEE1F0099B3D5 /* MeteorologyApi.swift */; };
 		1E547F7A28CFEE1F0099B3D5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E547F5B28CFEE1F0099B3D5 /* Constants.swift */; };
@@ -48,7 +47,6 @@
 		1E547F5228CFEE1E0099B3D5 /* WeatherWeeklySheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherWeeklySheetViewController.swift; sourceTree = "<group>"; };
 		1E547F5328CFEE1E0099B3D5 /* WeatherTomorrowSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherTomorrowSheetViewController.swift; sourceTree = "<group>"; };
 		1E547F5528CFEE1F0099B3D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1E547F5628CFEE1F0099B3D5 /* postal_code_municipes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = postal_code_municipes.csv; sourceTree = "<group>"; };
 		1E547F5728CFEE1F0099B3D5 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		1E547F5928CFEE1F0099B3D5 /* MeteorologyApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteorologyApi.swift; sourceTree = "<group>"; };
 		1E547F5B28CFEE1F0099B3D5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -155,7 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				1E547F5528CFEE1F0099B3D5 /* Assets.xcassets */,
-				1E547F5628CFEE1F0099B3D5 /* postal_code_municipes.csv */,
 				1E547F5728CFEE1F0099B3D5 /* Colors.swift */,
 			);
 			path = assets;
@@ -296,7 +293,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1E547F3A28CFED4C0099B3D5 /* Build configuration list for PBXProject "Seresco" */;
+			buildConfigurationList = 1E547F3A28CFED4C0099B3D5 /* Build configuration list for PBXProject "SerescoWeatherUtils" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -319,7 +316,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E547F7728CFEE1F0099B3D5 /* postal_code_municipes.csv in Resources */,
 				1E547F7628CFEE1F0099B3D5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -586,7 +582,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E547F3A28CFED4C0099B3D5 /* Build configuration list for PBXProject "Seresco" */ = {
+		1E547F3A28CFED4C0099B3D5 /* Build configuration list for PBXProject "SerescoWeatherUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E547F4528CFED4C0099B3D5 /* Debug */,

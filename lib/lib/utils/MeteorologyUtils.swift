@@ -7,32 +7,14 @@
 //
 
 import UIKit
-import GoogleMaps
 
 public class MeteorologyUtils {
     
-    var currentViewController: UIViewController?
+    public var currentViewController: UIViewController?
     
-    public func openMeteorologyPanel(meteorologyType: MeteorologyType, coordinate: CLLocationCoordinate2D) {
-        let geocoder = GMSGeocoder()
-        geocoder.reverseGeocodeCoordinate(coordinate) { [self] (response, error) in
-            if error != nil {
-                return
-            }
-            
-            guard let result = response?.firstResult() else {
-                return
-            }
-            let postalCode = result.postalCode ?? ""
-            
-            guard let municipalityId = getMunicipalityIdFromPostalCode(postalCode: postalCode) else {
-                return
-            }
-            openPanel(meteorologyType: meteorologyType, municipalityId: municipalityId)
-        }
-    }
+    public init() {}
     
-    func openPanel(meteorologyType: MeteorologyType, municipalityId: String) {
+    public func openMeteorologyPanel(meteorologyType: MeteorologyType, municipalityId: String) {
         switch meteorologyType {
         case .WEATHER_TODAY:
             let weatherTodaySheet = WeatherTodaySheetViewController()
