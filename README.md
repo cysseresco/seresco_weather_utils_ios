@@ -24,7 +24,7 @@ let meteorologyUtils = MeteorologyUtils()
 
 func openWeatherWeeklySheet() {
     meteorologyUtils.currentViewController = self
-    meteorologyUtils.openMeteorologyPanel(meteorologyType: .HUMIDITY, municipalityId: "33007")
+    meteorologyUtils.openMeteorologyPanel(meteorologyType: .WEATHER_WEEKLY, coordinate: CLLocationCoordinate2D(latitude: 43.361231, longitude: -5.848566,))
 }
 ```
 
