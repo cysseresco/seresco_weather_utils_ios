@@ -1,7 +1,16 @@
 Seresco Weather Utils iOS
 =======
 
+## Description
+
 A weather library for iOS using AEMET data
+
+- **Humidity**
+- **Precipitation**
+- **Today's weather**
+- **Tomorrow's weather**
+- **Weekly weather**
+- **Wind**
 
 <p float="left">
   <img src="art/img_weather_weekly.png" width="200" height="450">
